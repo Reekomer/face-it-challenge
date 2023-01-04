@@ -9,7 +9,7 @@ from collections import namedtuple
 from sklearn import metrics
 
 
-DATASET_PATH = "/Users/jeremydegail/Desktop/repo/case_study/datasets/toxicity.csv"
+DATASET_PATH = "./toxicity.csv"
 TOXIC_LABELS = ["Offensive", "Profanity",
                 "Very offensive", "Extremely offensive", "Hate speech"]
 UNUSED_COLUMNS = ["row"]
